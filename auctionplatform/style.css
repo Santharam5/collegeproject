@@ -1,0 +1,61 @@
+/* body{
+    background-image: url("https://img.freepik.com/free-vector/online-auction-landing-page-design_52683-76081.jpg?t=st=1735828654~exp=1735832254~hmac=496b46644c3ddff4ac221560fc5258f42bbb0e1c09e334e7bd220e7823138074&w=1060");
+        
+} */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#navbar {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background-color: black;
+}
+#navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: blue !important;
+}
+#navbarNav a {
+  text-align: center;
+  color: aliceblue;
+  border-bottom: 10x soli transparent;
+}
+#navbarNav a:hover {
+  border-bottom: 2px solid gold;
+}
+#navbarNav button {
+  background: greenyellow;
+  width: 5rem;
+  border-radius: 15px;
+}
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/****Home****/
+
+#Home {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url(homeimage.jpg);
+  background-size: cover;
+  background-position: right;
+}
+#Home h1 {
+  font-size: 50px;
+  color: rgba(243, 233, 219, 0.349);
+  letter-spacing: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 1px 2px #ccc, 2px 2px 2px #cccccc4d, 2px 3px 2px #ccc,
+    2px 4px 2px #ccc;
+}
